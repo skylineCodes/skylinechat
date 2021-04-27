@@ -6,7 +6,7 @@ import { auth, db } from "../firebase";
 import { MoreVert, AttachFile, InsertEmoticon, Mic } from '@material-ui/icons';
 import { useCollection } from 'react-firebase-hooks/firestore';
 import Message from "./Message";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import firebase from 'firebase';
 import TimeAgo from 'timeago-react';
 import getRecipientEmail from "../utils/getRecipientEmail";
